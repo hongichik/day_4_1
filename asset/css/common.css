@@ -1,0 +1,124 @@
+/* font-size responsive */
+
+
+@media only screen and (max-width : 320px) {
+
+    /* Styles */
+    html {
+        font-size: 20px !important;
+    }
+
+}
+
+@media only screen and (min-width : 320px) {
+
+    /* Styles */
+    html {
+        font-size: 21px !important;
+    }
+
+
+}
+
+@media only screen and (min-width : 576px) {
+
+    /* Styles */
+    html {
+        font-size: 21px !important;
+    }
+
+
+}
+
+@media only screen and (min-width : 769px) {
+
+    /* Styles */
+    html {
+        font-size: 23px !important;
+    }
+
+}
+
+@media only screen and (min-width : 992px) {
+
+    /* Styles */
+    html {
+        font-size: 25px !important;
+    }
+
+}
+
+@media only screen and (min-width : 1200px) {
+
+    /* Styles */
+    html {
+        font-size: 25px !important;
+    }
+
+
+}
+
+.weight-100{
+    font-weight: 100;
+}
+.weight-300 {
+    font-weight: 300;
+}
+.weight-400 {
+    font-weight: 400;
+}
+/* coler */
+
+.c_white{
+    color: var(--white);
+}
+
+/* font size responsive */
+
+.fs_1 {
+    font-size: 1rem;
+}
+
+.fs_1_1 {
+    font-size: 1.1rem;
+}
+
+.fs_1_2 {
+    font-size: 1.2rem;
+}
+
+.fs_1_3 {
+    font-size: 1.3rem;
+}
+
+.fs_1_6 {
+    font-size: 1.6rem;
+}
+
+.fs_0_5 {
+    font-size: 0.5rem;
+}
+
+.fs_16px {
+    font-size: 16px;
+}
+
+.fs_18px {
+    font-size: 18px;
+}
+
+.fs_18px p {
+    font-size: 18px;
+}
+
+.fs_0_6 {
+    font-size: 0.6rem;
+}
+
+.fs_0_7 {
+    font-size: 0.7rem;
+}
+
+.fs_0_8 {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,67 @@
+:root {
+    --black-1: #3B4C5C;
+    --white: #FFFFFF;
+}
+
+.bg-black-1 {
+    background-color: var(--black-1);
+}
+
+.navbar a {
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.navbar a:hover {
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner_img {
+    max-height: 635px;
+    object-fit: cover;
+}
+
+.banner_content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.banner_content a {
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card_item div {
+    background-color: #F3F4F5;
+}
+
+.footer {
+    width: 100%;
+    background-color: #262F38;
+}
+
+.form_contact .form-control {
+    background-color: transparent;
+    border-color: #ffffff4a;
+    border-width: 2px;
+    font-size: 0.7rem;
+    color: white!important;
+}
+
+.form_contact .form-control:focus {
+    background-color: transparent;
+    border-color: #ffffff4a;
+    border-width: 2px;
+}
