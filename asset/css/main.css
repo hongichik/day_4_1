@@ -47,6 +47,11 @@
     background-color: #F3F4F5;
 }
 
+.card_item img {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
 .footer {
     width: 100%;
     background-color: #262F38;
@@ -57,7 +62,7 @@
     border-color: #ffffff4a;
     border-width: 2px;
     font-size: 0.7rem;
-    color: white!important;
+    color: white !important;
 }
 
 .form_contact .form-control:focus {
